@@ -1,0 +1,15 @@
+# to check whether a number is even or odd.
+import java.util.*;
+class J
+{
+    public static void main(String args[])
+    {
+        Scanner sc = new Scanner(System.in);
+        int a;
+        a = sc.nextInt();
+        if(a%2==0)
+            System.out.print("Even number");
+        else
+            System.out.print("Odd number");
+    }
+}
